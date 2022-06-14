@@ -4,7 +4,8 @@ import networkx as nx
 from tqdm import tqdm
 import torch
 from scipy.sparse import csc_matrix
-from sklearn.cluster import SpectralClustering
+#from sklearn.cluster import SpectralClustering
+from spectral import SpectralClustering
 import random
 
 def get_dictionary(data_name):
